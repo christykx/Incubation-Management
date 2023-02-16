@@ -1,0 +1,68 @@
+/* <link rel="preconnect" href="https://fonts.gstatic.com"> */
+  @import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap");
+
+.loginbg{
+  background: linear-gradient( white,white,white,pink,rgb(247, 229, 232));
+  /* height: 100vh; */
+   /* background-repeat: no-repeat; */
+  /* background-size: cover;  */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.loginParentDiv {
+    border: 1px solid black;
+   
+    width: 35%;
+   padding: 10px;
+    /* position: absolute; */
+    height: 70%;
+    top: 50%;
+    left: 50%;
+   
+    /* transform: translate(-50%, -50%);  */
+    border-radius: 6px;
+  }
+  
+  .loginParentDiv .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    width: 90%;
+  }
+  
+  .loginParentDiv button {
+    width: 50%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 6px;
+
+  }
+  .loginParentDiv button:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+    border-radius: 6px;
+
+  }
+  
+  .loginParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+
+  .textfont{
+      /* font-family: 'Hanalei Fill', cursive; */
+      font-family: 'Kanit';
+
+
+  }
